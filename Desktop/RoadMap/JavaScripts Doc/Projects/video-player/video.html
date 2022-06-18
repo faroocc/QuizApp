@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"  >
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center mt-3">
+        <div class="card" style="width: 400px">
+            <div class="row g-0">
+                <div class="col-12">
+                    <div id="musicDetails">
+
+                    </div>
+                    <div id="controls" class="text-center mt-2 sb-2">
+                        <button id="prev" class="btn btn-primary rounded-circle">
+                            <i class="fa-solid fa-backward-step"></i>
+                        </button>
+                        <button id="play" class="btn btn-primary rounded-circle btn-lg mx-2">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button id="next" class="btn btn-primary rounded-circle">
+                            <i id="next" class="fa-solid fa-forward-step"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr>
+                    <h4 class="card-title mt-2 text-center" id="question-text"></h4>
+                    <div class="option_list">
+              
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="music.js"></script>
+        <script src="soru.js"></script>
+        <script src="ui.js"></script>
+        <script src="quiz.js"></script>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>
